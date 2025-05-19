@@ -1,4 +1,3 @@
-# cmsc471final
 
 ## X Vs Y : The Pay Story
 
