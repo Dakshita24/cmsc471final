@@ -12,7 +12,7 @@ We aim to explore the gender pay gap in the United States. To support this analy
 # Contributions:
 1. Reni: Worked on finding data sets, presentation, fixing bugs in our javascript, came up with the layout of our website, and worked on "Where You Live Matters", "More Degrees, Still Less Pay" visualizations.  
 2. Chayanika : Worked on our presentation, finding the datasets, and worked on "Where You Live Matters" visualization with Reni and "The Intersection of Race and Gender" and "Job Title ≠ Pay Equality" visualizations.  
-3. Dakshita: Worked on finding datasets, fixing bugs in our javascript, deployed our webiste and worked on "The Dollar Divide:", "SLOW PROGRESS" and "Job Title ≠ Pay Equality" visualizatins. 
+3. Dakshita: Worked on finding datasets, fixing bugs in our javascript, deployed our website and worked on "The Dollar Divide:", "SLOW PROGRESS" and "Job Title ≠ Pay Equality" visualizations. 
 
 # Acknowledgement:
 
