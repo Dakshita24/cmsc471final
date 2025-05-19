@@ -15,6 +15,7 @@ We aim to explore the gender pay gap in the United States. To support this analy
 2. Chaynika : Worked on our presentation, finding the datasets, and worked on "Where You Live Matters" visualization with Reni and "The Intersection of Race and Gender" and "Job Title ≠ Pay Equality" visualizations.  
 3. Dakshita: Worked on finding datasets, fixing bugs in our javascript, deployed our webiste and worked on "The Dollar Divide:", "SLOW PROGRESS" and "Job Title ≠ Pay Equality" visualizatins. 
 
+# Acknowledgement:
 
 Deployed using render.om
  
