@@ -2,7 +2,7 @@
 
 ## X Vs Y : The Pay Story
 
-#Team Members:
+##Team Members:
 Chayanika Sinha, Reni Kaza, Dakshita Pal
 
 
