@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unequal by Design</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>X Vs Y : The Pay Story</h1>
+    <p class="top-dis">Explore the gender pay gap in the United States – how far we've come, how far we still have to go, and what’s holding us back.</p>
+  </header>
+
+  <main class="infographic-grid">
+    <div class="card">
+  <h2>The Dollar Divide</h2>
+  <p>For every $1 earned by a man in the U.S., a woman earns around</p>
+
+  <div class="donut-chart" style="position: relative;">
+    <svg width="150" height="150">
+      <!-- Background circle -->
+      <circle cx="75" cy="75" r="60" fill="none" stroke="#D8BFD8" stroke-width="20" />
+      <!-- Foreground arc (84% of full circle) -->
+      <circle cx="75" cy="75" r="60" fill="none" stroke="#4B0082" stroke-width="20"
+              stroke-dasharray="316.8 376.8" stroke-linecap="round" transform="rotate(-90 75 75)" />
+    </svg>
+    <div class="donut-center" style="
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #4B0082;
+    ">
+      $0.84
+    </div>
+  </div>
+
+</div>
+
+
+    <div class="card">
+  <h2>SLOW PROGRESS</h2>
+  <p>Isn’t it getting better? Yes, <em>But slowly.</em><br/>
+     At this rate, women won’t reach equal pay until 2100.</p>
+  <div class="viz" id="line-chart"></div> 
+</div>
+
+    <div class="card">
+      <h2>Job Title ≠ Pay Equality</h2>
+      <p>The gap isn’t just about education or effort. Even in the same jobs, women are paid less.</p>
+      <div class="viz" id="bar-chart"></div>
+    </div>
+
+    <div class="card">
+      <h2>The Intersection of Race and Gender</h2>
+      <p>Women of color face the <em>widest</em> pay gaps. Compared to white men, disparities are even starker.</p>
+      <div class="viz" id="race-income-chart"></div>
+    </div>
+
+    <div class="card">
+      <h2>More Degrees, Still Less Pay</h2>
+      <p>Education helps – <em>but doesn’t close the gap.</em> A woman with a master’s may still earn less than a man with a bachelor’s.</p>
+      <div class="viz" id="education-dot-chart"></div>
+    </div>
+
+    <div class="card">
+      <h2>Where You Live Matters</h2>
+      <p>Some states are ahead in closing the gap. Others are far behind.</p>
+      <div class="viz" id="map"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Data from BLS, AAUW, and Census ACS. Visualization built with D3.js.</p>
+  </footer>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+  <script src="script.js"></script>
+</body>
+</html>
