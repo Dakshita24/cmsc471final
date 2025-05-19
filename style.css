@@ -1,0 +1,207 @@
+/* Reset & Body */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+font-family: Courier, monospace;
+  background: white;
+  color: #1a1a1a;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #4c2c92;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 2.5rem;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-family: Optima, sans-serif;
+}
+
+header p {
+  font-size: 1.05rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Grid Layout */
+
+/*
+.infographic-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+.infographic-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Changed from 1fr 1fr to 1fr */
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card Styling */
+.card {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+  width: 100%;
+} 
+
+
+
+.card h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-family: Noto Sans, sans-serif;
+}
+
+.card p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+.top-dis{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+   color: white;
+}
+
+.card .subtext {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+/* Viz Box */
+.donut-chart {
+  background: #eceaf7;
+  height: 200px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  color: #666;
+  font-size: 14px;
+  overflow: hidden;
+  margin-top: auto;
+}
+
+.donut-chart span {
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: normal;
+  color: #4c2c92;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 3rem;
+}
+
+.viz svg {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+.viz {
+  background: #eceaf7;
+  border-radius: 8px;
+  overflow: hidden;
+ height: auto;
+ width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  position: relative;
+}
+
+#map svg {
+  width: 100%;
+  height: 100%;
+}
+#map {
+  background: #eceaf7;
+  border-radius: 8px;
+  height: auto;
+  min-height: 360px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tooltip {
+  position: absolute;
+  background: white;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+  pointer-events: none;
+  opacity: 0;
+  max-width: 220px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+} 
+
+.donut-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eceaf7;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 180px;
+  margin: 0 auto 1rem auto; /* center + spacing below */
+  padding: 1.5rem;
+}
+
+.donut-wrapper svg {
+  display: block;
+}
+
+.donut-center {
+  position: absolute;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4B0082;
+  text-align: center;
+  pointer-events: none;
+}
+
+
+
+
