@@ -15,6 +15,12 @@ We aim to explore the gender pay gap in the United States. To support this analy
 3. Dakshita: Worked on finding datasets, fixing bugs in our javascript, deployed our website and worked on "The Dollar Divide:", "SLOW PROGRESS" and "Job Title ≠ Pay Equality" visualizations. 
 
 # Acknowledgement:
+We collected datasets from these sources
+Bureau, US Census. “PINC-05. Work Experience-People 15 Years Old and Over, by Total Money Earnings, Age, Race, Hispanic Origin, Sex.” Census.gov, 17 Aug. 2024, www.census.gov/data/tables/time-series/demo/income-poverty/cps-pinc/pinc-05.2019.html#par_textimage_17
+‌Kochhar, Rakesh. “The Enduring Grip of the Gender Pay Gap.” Pew Research Center, 1 Mar. 2023, www.pewresearch.org/social-trends/2023/03/01/the-enduring-grip-of-the-gender-pay-gap/.
+Haan, Kathy. “52 Gender Pay Gap Statistics in 2023 – Forbes Advisor.” Www.forbes.com, 27 Feb. 2023, www.forbes.com/advisor/business/gender-pay-gap-statistics/#sources_section.
+“Highlights of Women’s Earnings in 2023.” Bureau of Labor Statistics, 30 Aug. 2024, www.bls.gov/opub/reports/womens-earnings/2023/.
+“Median Weekly Earnings by Educational Attainment and Sex (Annual) | U.S. Department of Labor.” Www.dol.gov, www.dol.gov/agencies/wb/data/earnings/Median-weekly-earnings-educational-sex.
 
 Deployed using render.om
  
