@@ -22,5 +22,5 @@ Haan, Kathy. “52 Gender Pay Gap Statistics in 2023 – Forbes Advisor.” Www.
 “Highlights of Women’s Earnings in 2023.” Bureau of Labor Statistics, 30 Aug. 2024, www.bls.gov/opub/reports/womens-earnings/2023/.
 “Median Weekly Earnings by Educational Attainment and Sex (Annual) | U.S. Department of Labor.” Www.dol.gov, www.dol.gov/agencies/wb/data/earnings/Median-weekly-earnings-educational-sex.
 
-Deployed using render.om
+Deployed using render.com
  
